@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -215,7 +235,7 @@ window.Quarto = {
 
 
 <p>L’économie de l’identité est un courant récent de la discipline.</p>
-<p>Les travaux fondateurs d’ Akerlof et Kranton (<span class="citation" data-cites="akerlof_economics_2000">@akerlof_economics_2000</span> ) ont mis en lumière la nécessité d’intégrer dans les modèles économiques traditionnels cette notion fondamentale qu’est l’identité.</p>
+<p>Les travaux fondateurs d’ Akerlof et Kranton (<span class="citation" data-cites="akerlof_economics_2000">George A. Akerlof and Kranton (<a href="references.html#ref-akerlof_economics_2000" role="doc-biblioref">2000b</a>)</span> ) ont mis en lumière la nécessité d’intégrer dans les modèles économiques traditionnels cette notion fondamentale qu’est l’identité.</p>
 <section id="utilité-et-identité" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="utilité-et-identité"><span class="header-section-number">1.1</span> Utilité et Identité</h2>
 <p>Pour un économiste, le concept d’utilité est central. Il s’agit d’une mesure de la satisfaction individuelle.</p>
@@ -247,28 +267,28 @@ window.Quarto = {
 </ul>
 <p>Ce modèle formalise cette tension qui peut exister pour les individus entre se conformer ou non aux normes de sa catégorie sociale assignée, en fonction de la distance qui peut exister entre ses propres caractéristiques et les prescriptions assignées.</p>
 <p>Il suppose aussi l’existence possible de sanctions de la part des pairs si les normes ne sont pas suivies (moqueries, mise à l’écart ou même violence)</p>
-<p>Par exemple, dans leur papier <span class="citation" data-cites="akerlof">[@akerlof]</span> complètent les théories traditionnelles de l’économie de l’éducation en expliquant le plus ou moins grand investissement scolaire des étudiants en fonction de leurs caractéristiques identitaires (les sportifs, les intellos et les rebelles)</p>
+<p>Par exemple, dans leur papier <span class="citation" data-cites="akerlof">(<a href="references.html#ref-akerlof" role="doc-biblioref">George A. Akerlof and Kranton, n.d.</a>)</span> complètent les théories traditionnelles de l’économie de l’éducation en expliquant le plus ou moins grand investissement scolaire des étudiants en fonction de leurs caractéristiques identitaires (les sportifs, les intellos et les rebelles)</p>
 </section>
 <section id="identité-et-choix-des-individus" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="identité-et-choix-des-individus"><span class="header-section-number">1.3</span> Identité et choix des individus</h2>
 <p>L’économie étudie comment les agents font leur choix (de consommation, de production…), ces choix dépendent de l’identité des individus.</p>
 <p>En effet, le sens que l’on a de soi, influence nos décisions, et ces décisions influencent notre identité en retour.</p>
-<p>Dans un premier temps, la catégorie sociale à laquelle j’appartiens peut influencer mes préférences (<span class="citation" data-cites="chen_group_2009">@chen_group_2009</span>) ,mes comportements pro-sociaux (<span class="citation" data-cites="charness_identities_2014">@charness_identities_2014</span>) et donc mes décisions.</p>
+<p>Dans un premier temps, la catégorie sociale à laquelle j’appartiens peut influencer mes préférences (<span class="citation" data-cites="chen_group_2009">Chen and Li (<a href="references.html#ref-chen_group_2009" role="doc-biblioref">2009</a>)</span>) ,mes comportements pro-sociaux (<span class="citation" data-cites="charness_identities_2014">Charness, Cobo-Reyes, and Jiménez (<a href="references.html#ref-charness_identities_2014" role="doc-biblioref">2014</a>)</span>) et donc mes décisions.</p>
 <p>Dans un second temps, l’individu arbitre entre ses propres caractéristiques et les prescriptions de sa catégorie sociale (ou les prescriptions supposées).</p>
 <p>Vais-je me conformer à ce qui est attendu? Mes propres caractéristiques sont-elles plus ou moins proches des normes en vigueur? Si je ne me conforme pas, quelle sera la réaction de mes pairs?</p>
-<p>Cet arbitrage et cette possibilité pour autrui de répondre à mes actions a été représenté sous forme d’arbre de décision par <span class="citation" data-cites="akerlof_economics_2000-1">@akerlof_economics_2000-1</span></p>
+<p>Cet arbitrage et cette possibilité pour autrui de répondre à mes actions a été représenté sous forme d’arbre de décision par <span class="citation" data-cites="akerlof_economics_2000-1">George A. Akerlof and Kranton (<a href="references.html#ref-akerlof_economics_2000-1" role="doc-biblioref">2000a</a>)</span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="tree.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
-<p>Cette friction entre adhérer ou non aux normes de ma catégorie sociale a conduit la recherche des économistes de l’identité vers les questions de conflits inter-groupes (<span class="citation" data-cites="austen-smith_economic_2005">@austen-smith_economic_2005</span>, <span class="citation" data-cites="chakravarty_religious_2015">@chakravarty_religious_2015</span>, <span class="citation" data-cites="fryer_empirical_2010">@fryer_empirical_2010</span>, <span class="citation" data-cites="benabou_incentives_2004">@benabou_incentives_2004</span>.)</p>
+<p>Cette friction entre adhérer ou non aux normes de ma catégorie sociale a conduit la recherche des économistes de l’identité vers les questions de conflits inter-groupes (<span class="citation" data-cites="austen-smith_economic_2005">Austen-Smith and Fryer (<a href="references.html#ref-austen-smith_economic_2005" role="doc-biblioref">2005</a>)</span>, <span class="citation" data-cites="chakravarty_religious_2015">Chakravarty et al. (<a href="references.html#ref-chakravarty_religious_2015" role="doc-biblioref">2015</a>)</span>, <span class="citation" data-cites="fryer_empirical_2010">Fryer, Fryer, and Torelli (<a href="references.html#ref-fryer_empirical_2010" role="doc-biblioref">2010</a>)</span>, <span class="citation" data-cites="benabou_incentives_2004">Bénabou and Tirole (<a href="references.html#ref-benabou_incentives_2004" role="doc-biblioref">2004</a>)</span>.)</p>
 <p>On s’interroge sur les normes, l’adhésion ou non à ces dernières et le rôle que peuvent jouer les politiques publiques sur ces prescriptions.</p>
 <p>Mais l’identité joue également un rôle fondamental sur les performances individuelles.</p>
 </section>
 <section id="identité-et-performances" class="level2" data-number="1.4">
 <h2 data-number="1.4" class="anchored" data-anchor-id="identité-et-performances"><span class="header-section-number">1.4</span> Identité et Performances</h2>
-<p>Dans une étude particulièrement intéressante, <span class="citation" data-cites="shih_domain-specific_2006">@shih_domain-specific_2006</span> ont montré comment l’activation d’une identité particulière, ou tout du moins comment les stéréotypes associés à cette identité, pouvaient avoir un impact sur les performances individuelles.</p>
+<p>Dans une étude particulièrement intéressante, <span class="citation" data-cites="shih_domain-specific_2006">Shih, Pittinsky, and Trahan (<a href="references.html#ref-shih_domain-specific_2006" role="doc-biblioref">2006</a>)</span> ont montré comment l’activation d’une identité particulière, ou tout du moins comment les stéréotypes associés à cette identité, pouvaient avoir un impact sur les performances individuelles.</p>
 <p>En réalisant une étude auprès d’étudiantes asiatiques aux Etats Unis, les chercheurs ont proposé l’expérience suivante:</p>
 <p>Un questionnaire était fourni aux participantes avant de réaliser un test de mathématiques.</p>
 <p>Une partie des participantes répondaient à un questionnaire dont les questions portaient sur leur identité asiatique, pour les autres participantes le questionnaire activait leur identité féminine, un groupe de contrôle était également implémanté.</p>
@@ -278,6 +298,38 @@ window.Quarto = {
 <p>La question de la mesure de l’identité se pose alors…</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-akerlof_economics_2000-1" class="csl-entry" role="listitem">
+Akerlof, George A., and R. Kranton. 2000a. <span>“Economics and Identity.”</span> <em>Quarterly Journal of Economics</em> 115: 715–53. <a href="https://doi.org/10.1162/003355300554881">https://doi.org/10.1162/003355300554881</a>.
+</div>
+<div id="ref-akerlof_economics_2000" class="csl-entry" role="listitem">
+Akerlof, George A., and Rachel E. Kranton. 2000b. <span>“Economics and Identity.”</span> <em>The Quarterly Journal of Economics</em> 115 (3): 715–53. <a href="https://www.jstor.org/stable/2586894">https://www.jstor.org/stable/2586894</a>.
+</div>
+<div id="ref-akerlof" class="csl-entry" role="listitem">
+Akerlof, George A, and Rachel E Kranton. n.d. <span>“Identity and Schooling: Some Lessons for the Economics of Education,”</span> 36.
+</div>
+<div id="ref-austen-smith_economic_2005" class="csl-entry" role="listitem">
+Austen-Smith, D., and Roland G. Fryer. 2005. <span>“An Economic Analysis of <span>‘Acting White’</span>.”</span> <em>Quarterly Journal of Economics</em> 120: 551–83. <a href="https://doi.org/10.1093/QJE/120.2.551">https://doi.org/10.1093/QJE/120.2.551</a>.
+</div>
+<div id="ref-benabou_incentives_2004" class="csl-entry" role="listitem">
+Bénabou, R., and J. Tirole. 2004. <span>“Incentives and Prosocial Behavior.”</span> <em><span>IZA</span> Institute of Labor Economics Discussion Paper Series</em> null: null. <a href="https://doi.org/10.2139/ssrn.639043">https://doi.org/10.2139/ssrn.639043</a>.
+</div>
+<div id="ref-chakravarty_religious_2015" class="csl-entry" role="listitem">
+Chakravarty, Surajeet, Miguel A. Fonseca, S. Ghosh, and S. Marjit. 2015. <span>“Religious Fragmentation , Social Identity and Cooperation : Evidence from an Artefactual Field Experiment in India ∗.”</span> <a href="https://doi.org/10.1016/j.euroecorev.2015.12.006">https://doi.org/10.1016/j.euroecorev.2015.12.006</a>.
+</div>
+<div id="ref-charness_identities_2014" class="csl-entry" role="listitem">
+Charness, G., Ramón Cobo-Reyes, and Natalia Jiménez. 2014. <span>“Identities, Selection, and Contributions in a Public-Goods Game.”</span> <em>Games Econ. Behav.</em> 87: 322–38. <a href="https://doi.org/10.1016/J.GEB.2014.05.002">https://doi.org/10.1016/J.GEB.2014.05.002</a>.
+</div>
+<div id="ref-chen_group_2009" class="csl-entry" role="listitem">
+Chen, Yan, and S. Li. 2009. <span>“Group Identity and Social Preferences.”</span> <em>The American Economic Review</em> 99: 431–57. <a href="https://doi.org/10.1257/AER.99.1.431">https://doi.org/10.1257/AER.99.1.431</a>.
+</div>
+<div id="ref-fryer_empirical_2010" class="csl-entry" role="listitem">
+Fryer, Roland G., Roland G. Fryer, and Paul Torelli. 2010. <span>“An Empirical Analysis of <span>‘Acting White’</span>.”</span> <em>Journal of Public Economics</em> 94: 380–96. <a href="https://doi.org/10.1016/J.JPUBECO.2009.10.011">https://doi.org/10.1016/J.JPUBECO.2009.10.011</a>.
+</div>
+<div id="ref-shih_domain-specific_2006" class="csl-entry" role="listitem">
+Shih, Margaret, Todd L. Pittinsky, and Amy Trahan. 2006. <span>“Domain-Specific Effects of Stereotypes on Performance.”</span> <em>Self and Identity</em> 5 (1): 1–14. <a href="https://doi.org/10.1080/15298860500338534">https://doi.org/10.1080/15298860500338534</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
