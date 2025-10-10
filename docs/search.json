@@ -258,5 +258,15 @@
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Mesures Continues du Genre</span>"
     ]
+  },
+  {
+    "objectID": "en_cours.html#identité-distance-aux-normes-et-satisfaction",
+    "href": "en_cours.html#identité-distance-aux-normes-et-satisfaction",
+    "title": "3  Mesures Continues du Genre",
+    "section": "3.8 Identité, distance aux normes et satisfaction",
+    "text": "3.8 Identité, distance aux normes et satisfaction\n\n\ncode R\nlibrary(ggplot2)\nggplot(my_data_frame, aes(x = satisfaction, y = score_normalise_LASSO)) +\n  stat_summary(fun = mean, geom = \"point\", color = \"blue\") +\n  stat_summary(fun.data = mean_cl_normal, geom = \"errorbar\", width = 0.2) +\n  geom_smooth(aes(group = 1), method = \"lm\", se = FALSE, color = \"red\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\ncode R\nlibrary(ggplot2)\nggplot(my_data_frame, aes(x = satisfaction, y = distance_abs)) +\n  stat_summary(fun = mean, geom = \"point\", color = \"blue\") +\n  stat_summary(fun.data = mean_cl_normal, geom = \"errorbar\", width = 0.2) +\n  geom_smooth(aes(group = 1), method = \"lm\", se = FALSE, color = \"red\") +\n  theme_minimal()\n\n\n\n\n\n\n\n\n\ncode R\nlibrary(ggplot2)\nggplot(my_data_frame, aes(x = Health, y = distance_abs)) +\n  stat_summary(fun = mean, geom = \"point\", color = \"blue\") +\n  stat_summary(fun.data = mean_cl_normal, geom = \"errorbar\", width = 0.2) +\n  geom_smooth(aes(group = 1), method = \"lm\", se = FALSE, color = \"red\") +\n  theme_minimal()",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Mesures Continues du Genre</span>"
+    ]
   }
 ]
